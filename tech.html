@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/tech.css">
+    <script src="/script/scroll.js"></script>
+    <script defer src="/script/index.js"></script>
+    <script type="text/javascript"
+        src="https://res.cloudinary.com/veseylab/raw/upload/v1636192990/magicmouse/magic_mouse-1.2.1.cdn.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+    <title>Sethu-TechStack</title>
+</head>
+
+<body>
+    <main data-scroll-container>
+        <section>
+            <h1>TechStack I'd Like to Learn</h1>
+            <ul>
+                <li class="hidden"><i class='bx bxl-html5'></i>HTML</li>
+                <li class="hidden"><i class='bx bxl-css3'></i>CSS</li>
+                <li class="hidden"><i class='bx bxl-javascript'></i>JavaScript</li>
+                <li class="hidden"><i class='bx bxl-react'></i>React</li>
+                <li class="hidden"><i class='bx bxl-nodejs'></i>Node.js</li>
+                <li class="hidden"><i class='bx bxl-git'></i>Git</li>
+                <li class="hidden"><i class='bx bxl-firebase'></i>Firebase</li>
+                <li class="hidden"><i class='bx bxl-mongodb'></i>MongoDB</li>
+                <li class="hidden"><i class='bx bxl-python'></i>Python</li>
+
+            </ul>
+        </section>
+    </main>
+</body>
+
+<script>
+    const options = {
+        cursorOuter: "circle-basic",
+        hoverEffect: "pointer-overlay",
+        hoverItemMove: false,
+        defaultCursor: false,
+        outerWidth: 50,
+        outerHeight: 50,
+    };
+    magicMouse(options);
+    var scroll = new LocomotiveScroll(
+        {
+            el: document.querySelector('[data-scroll-container]'),
+            smooth: true
+        }
+    );
+</script>
+
+</html>

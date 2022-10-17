@@ -1,0 +1,46 @@
+section {
+	margin: 3em;
+	padding-bottom: 10em;
+	min-height: 100vh;
+	border: 1px solid #aaa;
+}
+
+h1 {
+	font-size: 3rem;
+	font-weight: 400;
+	margin-top: 2em;
+	margin-left: 1em;
+	margin-bottom: 2em;
+}
+ul {
+	padding-bottom: 10em;
+}
+
+ul li {
+	list-style: none;
+	border: 1px solid #aaa;
+	margin: 2em 1em;
+	padding: 1em 2em;
+	font-size: 2em;
+	display: flex;
+	align-items: center;
+}
+
+ul li:hover {
+	background-color: #222;
+}
+
+li i {
+	margin-right: 1em;
+}
+
+.hidden {
+	opacity: 0;
+	margin-top: -30px;
+	transition: all 1s;
+}
+
+.show {
+	margin-top: 0;
+	opacity: 1;
+}
