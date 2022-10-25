@@ -6,12 +6,29 @@ section {
 }
 
 h1 {
-	font-size: 3rem;
+	font-size: 160px;
 	font-weight: 400;
 	margin-top: 2em;
 	margin-left: 1em;
 	margin-bottom: 2em;
+	/* -webkit-text-stroke: 1px white; */
+	color: transparent;
+	background-image: linear-gradient(#fff,#fff);
+	background-repeat: no-repeat;
+	-webkit-background-clip: text;
+	background-position: -1250px 0;
+	animation: backcolor 5s linear infinite alternate;
+	
+	
+	
+	
+	
 }
+@keyframes backcolor {
+	100%{
+		background-position: 0 0;
+	}
+
 ul {
 	padding-bottom: 10em;
 }
